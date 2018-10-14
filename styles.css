@@ -1,0 +1,89 @@
+/*
+
+스타일을 추가할 때 아래 사항을 주의해주세요.
+자신의 이니셜이 가장 앞에 오도록 하여 class tag 스타일을 만드세요.
+
+예)
+.gykim-btn {
+}
+
+.gykim-label {
+}
+
+ */
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.wf-navbar {
+    background-color: #fff !important;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    padding: 0 10px;
+}
+
+.wf-navbar__container {
+    display: flex;
+    margin: 0 auto;
+    width: 1260px;
+    justify-content: space-between;
+}
+
+@media (max-width: 990px) {
+    .wf-navbar__container {
+        flex-wrap: wrap;
+    }
+}
+
+.wf-navbar__btn {
+    border: none;
+    font-weight: bold;
+}
+
+.wf-navbar__right {
+    flex-direction: row-reverse;
+}
+
+.wf-navbar__logo {
+    background-size: contain;
+    background: url('./images/wafflestudio.png') 0 -50px no-repeat;
+    display: block;
+    width: 200px;
+    height: 100px;
+}
+
+.wf-article {
+    margin: 100px auto 0;
+    padding: 70px 20px;
+    max-width: 1260px;
+}
+
+.wf-section {
+    margin: 50px 0;
+}
+
+.wf-footer {
+    user-select: none;
+    font-size: 0.9rem;
+    opacity: 0.5;
+}
+
+.wf-codeblock {
+    display: block;
+    background-color: darkslategray;
+    color: #eee;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.wf-lion-img__wrapper {
+    margin: 30px 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.wf-lion-img {
+    display: block;
+    margin: 0 auto;
+}
