@@ -1,4 +1,4 @@
-/*
+﻿/*
 
 스타일을 추가할 때 아래 사항을 주의해주세요.
 자신의 이니셜이 가장 앞에 오도록 하여 class tag 스타일을 만드세요.
@@ -86,4 +86,15 @@
 .wf-lion-img {
     display: block;
     margin: 0 auto;
+}
+
+.smkim-pingu-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.smkim-pingu-img__wrapper {
+    margin: 30px 0;
+    display: inline-block;
+    text-align: center;
 }
